@@ -1,0 +1,11 @@
+x<-c(list(1:5),list(6:10),list(11:15))
+print("Original nested list:")
+print(x)
+e<-lapply(x,'[[',2)
+print("Second element of the nested list:")
+print(e)
+
+height <- c(150,180,210,240,270)
+age <- c(10,30,50,70,90)
+model <- lm(height ~ age)
+print(model)
